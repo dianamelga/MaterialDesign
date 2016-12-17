@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--quitamos .DarkActionBar y reemplazamos por NoActionBar
+    para que sea compatible con APIS menores a 22
+    ya que en esas versiones no se ve el toolbar como deberia, entonces
+    la disenhamos nosotros desde 0 -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
